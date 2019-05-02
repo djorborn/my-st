@@ -1,6 +1,7 @@
 # my-st
 
 This is my patched and custom version of st or Simple Terminal from suckless.org.
+I do not use my config.h file at all for this, I just erase it everytime for now.
 
 ## Patches
 1. [anysize](https://st.suckless.org/patches/anysize/)
