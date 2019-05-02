@@ -25,6 +25,11 @@ with `\033[3~` like..
 ```c
 	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",       -1,    0},
 ```
+and for Backspace I remove the line that has `XK_NO_MOD`.
+then edit the `\177\033` to just `\177' like..
+```c
+	{ XK_BackSpace,     Mod1Mask,       "\177",      0,    0},
+```
 
 and now it works like expected.
 
