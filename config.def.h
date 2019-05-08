@@ -84,32 +84,33 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+        /* 8 normal colors */
+        "#f7f7f7",
+        "#8c6c6c",
+        "#8e6e8e",
+        "#a0a0a0",
+        "#686888",
+        "#745474",
+        "#8686c6",
+        "#464646",
 
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+        /* 8 bright colors */
+        "#efefef",
+        "#6c5c5c",
+        "#7e5e7e",
+        "#909090",
+        "#585878",
+        "#644464",
+        "#7676b6",
+        "#563656",
 
-	[255] = 0,
+        [255] = 0,
 
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+        /* more colors can be added after 255 to use with DefaultXX */
+        "#cccccc",
+        "#555555",
 };
+
 
 
 /*
@@ -342,10 +343,9 @@ static Key key[] = {
 	{ XK_Delete,        ControlMask,    "\033[3;5~",    +1,    0},
 	{ XK_Delete,        ShiftMask,      "\033[2K",      -1,    0},
 	{ XK_Delete,        ShiftMask,      "\033[3;2~",    +1,    0},
-	{ XK_Delete,        XK_ANY_MOD,     "\033[P",       -1,    0},
-	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",      +1,    0},
-	{ XK_BackSpace,     XK_NO_MOD,      "\177",          0,    0},
-	{ XK_BackSpace,     Mod1Mask,       "\033\177",      0,    0},
+	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",       -1,    0},
+/*	{ XK_Delete,        XK_ANY_MOD,     "\033[3~",      +1,    0},*/
+	{ XK_BackSpace,     Mod1Mask,       "\177",          0,    0},
 	{ XK_Home,          ShiftMask,      "\033[2J",       0,   -1},
 	{ XK_Home,          ShiftMask,      "\033[1;2H",     0,   +1},
 	{ XK_Home,          XK_ANY_MOD,     "\033[H",        0,   -1},
