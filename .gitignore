@@ -1,5 +1,6 @@
 .vscode
 *.rej
 *.orig
+*.o
 st
 config.h
