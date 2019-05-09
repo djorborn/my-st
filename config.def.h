@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hermit:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Hermit:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -85,24 +85,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
         /* 8 normal colors */
-        "#f7f7f7",
-        "#8c6c6c",
-        "#8e6e8e",
-        "#a0a0a0",
-        "#686888",
-        "#745474",
-        "#8686c6",
-        "#464646",
+        "#23262E",
+        "#96e072",
+        "#C74DED",
+                "#FFE66D",
+                "#00e8c6",
+                "#D5CED9",
+                "#7CB7FF",
+                "#D5CED9",
 
         /* 8 bright colors */
-        "#efefef",
-        "#6c5c5c",
-        "#7e5e7e",
-        "#909090",
-        "#585878",
-        "#644464",
-        "#7676b6",
-        "#563656",
+        "#303541",
+        "#9BC53D",
+        "#3B79C7",
+        "#FF9F2E",
+        "#00e8c5",
+        "#eeeeee",
+        "#ff00aa",
+        "#f92672",
 
         [255] = 0,
 
