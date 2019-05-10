@@ -86,12 +86,12 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
         /* 8 normal colors */
        /*bk*/ "#23262E",
-       /*c*/ "#00E8C6",
-       /*g*/ "#96E072",
-       /*m*/ "#C74DED",
-       /*b*/ "#7CB7FF",
-       /*y*/ "#FFE66D",
        /*r*/ "#EE5D43",
+       /*g*/ "#96E072",
+       /*y*/ "#FFE66D",
+       /*b*/ "#7CB7FF",
+       /*m*/ "#C74DED",
+       /*c*/ "#00E8C6",
        /*w*/ "#D5CED9",
 
         /* 8 bright colors */
@@ -105,13 +105,13 @@ static const char *colorname[] = {
         "#f92672",
 */
     /*black*/  "#43464E",
-        /*c*/   "#30f8f6",
-    /*g*/   "#c6ffa2",
-        /*m*/   "#f77DfD",
-    /*b*/   "#aCe7FF",
-        /*y*/   "#FFf68D",
-        /*r*/   "#ff7D63",
-    /*w*/   "#f5eEe9",
+    /*r*/    "#ff7D63",
+    /*g*/    "#c6ffa2",
+    /*y*/    "#FFf68D",
+    /*b*/     "#aCe7FF",
+    /*m*/            "#f77DfD",
+    /*c*/            "#30f8f6",
+    /*w*/            "#f5eEe9",
 
         [255] = 0,
 
