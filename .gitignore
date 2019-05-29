@@ -3,4 +3,5 @@
 *.orig
 *.o
 st
+st.o
 config.h
